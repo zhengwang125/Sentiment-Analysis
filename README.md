@@ -17,11 +17,12 @@ Before running the python code, you'll first need to download all data we'll be 
 
 In order to run the Python code, you'll need the following libraries.
 
-[TensorFlow](http://www.tensorflow.org/) version 1.1 (Currently not supported for 1.2, 1.3, 1.4 etc but if someone wants to submit a pull request, I'd be open to that.)
-[NumPy](http://www.numpy.org/)
-[Matplotlib](http://www.matplotlib.org/)
-Installing [Anaconda Python](https://www.anaconda.com/) and [Keras](https://keras.io/)
-[Sklearn](http://scikit-learn.org/stable/)
+1. [TensorFlow](http://www.tensorflow.org/) version 1.1 (Currently not supported for 1.2, 1.3, 1.4 etc but if someone wants to submit a pull request, I'd be open to that.)
+2. [NumPy](http://www.numpy.org/)
+3. [Matplotlib](http://www.matplotlib.org/)
+4. Installing [Anaconda Python](https://www.anaconda.com/) and [Keras](https://keras.io/)
+5. [Sklearn](http://scikit-learn.org/stable/)
+
 The easiest way to install keras (Backend is TensorFlow) as well as NumPy, Matplotlib, Sklearn and so on is to start with the Anaconda Python distribution.
 
 Follow the installation instructions for Anaconda Python. We recommend using Python 3.6.
