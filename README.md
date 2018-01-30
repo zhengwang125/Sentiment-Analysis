@@ -1,6 +1,6 @@
 # Sentiment-Analysis
 
-#Git Preliminary
+# Git Preliminary
 
 1. git clone https://github.com/zhengwang125/Sentiment-Analysis.git
 2. git add "your modified"
@@ -45,7 +45,7 @@ Use cd to navigate into the top directory of the repo on your machine
 **Random Forest**, **K Nearest Neighbors**, **SVM**, **Voting** , **Logistic Regression** are also used for this prediction. More details you can found in homepage of [Scikit-learn Classification](http://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 Algorithms | Accuracy
---------   | ---
+--------   | -------
 Random Forest | 50.53%
 KNN    | 55.82%
 SVM     | 48.14%
