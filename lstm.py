@@ -224,7 +224,7 @@ y_data = np.load('Y_Matrix.npy')
 #    ypred = model.predict(xtest)[0][0]
 #    sent = " ".join([wordsList[x] for x in xtest[0] if x != 0])
 #    print(' {}      {}     {}'.format(int(round(ypred)), int(ylabel), sent))
-
+#Accuracy: 47.9
 maxSeqLength = 600
 numDimensions = 300 #Dimensions for each word vector 
 batchSize = 24
