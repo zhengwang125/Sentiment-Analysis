@@ -45,7 +45,7 @@ Use cd to navigate into the top directory of the repo on your machine
 
 # Statistical Machine Learning
 
-**Random Forest**, **K Nearest Neighbors**, **SVM**, **Voting** , **Logistic Regression** are also used for this prediction. More details you can found in homepage of [Scikit-learn Classification](http://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+**Random Forest**, **K Nearest Neighbors**, **SVM**, **Voting** , **Logistic Regression** are also used for this prediction. More details can be found in the homepage of [Scikit-learn Classification](http://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 Algorithms | Accuracy
 --------   | ---
