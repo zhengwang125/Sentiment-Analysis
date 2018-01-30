@@ -32,9 +32,11 @@ Follow the platform-specific TensorFlow installation instructions. Be sure to fo
 If you aren't still inside your Conda TensorFlow environment, enter it by opening your terminal and typing
 
 source activate tensorflow
+
 If you haven't done so already, download and unzip this entire repository from GitHub, either interactively, or by entering
 
 git clone https://github.com/zhengwang125/Sentiment-Analysis.git
+
 Use cd to navigate into the top directory of the repo on your machine
 
 # Deep Learning
