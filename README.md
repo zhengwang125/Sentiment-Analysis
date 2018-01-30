@@ -1,6 +1,6 @@
 # Sentiment-Analysis
 
-#Git Preliminary
+# Git Preliminary
 
 1. git clone https://github.com/zhengwang125/Sentiment-Analysis.git
 2. git add "your modified"
