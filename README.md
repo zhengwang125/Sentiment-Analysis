@@ -40,7 +40,7 @@ Use cd to navigate into the top directory of the repo on your machine
 
 **Sentiment Analysis** is a classic problem in RNN with LSTM model. We try to implement it in keras framework and we also prepared a tensorflow version. The best accuracy is about 47.9%.
 
-# statistical machine learning
+# Statistical Machine Learning
 
 **Random Forest**, **K Nearest Neighbors**, **SVM**, **Voting** , **Logistic Regression** are also used for this prediction. More details you can found in homepage of [Scikit-learn Classification](http://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
