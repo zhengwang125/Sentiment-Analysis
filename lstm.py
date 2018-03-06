@@ -256,6 +256,7 @@ loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=prediction,
 optimizer = tf.train.AdamOptimizer().minimize(loss)
 
 import datetime
+sess = tf.InteractiveSession()
 
 tf.summary.scalar('Loss', loss)
 tf.summary.scalar('Accuracy', accuracy)
@@ -263,7 +264,7 @@ merged = tf.summary.merge_all()
 logdir = "tensorboard/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S") + "/"
 writer = tf.summary.FileWriter(logdir, sess.graph)
 
-sess = tf.InteractiveSession()
+
 saver = tf.train.Saver()
 sess.run(tf.global_variables_initializer())
 
