@@ -17,11 +17,12 @@ Before running the python code, you'll first need to download all data we'll be 
 
 In order to run the Python code, you'll need the following libraries.
 
-[TensorFlow](http://www.tensorflow.org/) version 1.1 (Currently not supported for 1.2, 1.3, 1.4 etc but if someone wants to submit a pull request, I'd be open to that.)
-[NumPy](http://www.numpy.org/)
-[Matplotlib](http://www.matplotlib.org/)
-Installing [Anaconda Python](https://www.anaconda.com/) and [Keras](https://keras.io/)
-[Sklearn](http://scikit-learn.org/stable/)
+1. [TensorFlow](http://www.tensorflow.org/) version 1.1 (Currently not supported for 1.2, 1.3, 1.4 etc but if someone wants to submit a pull request, I'd be open to that.)
+2. [NumPy](http://www.numpy.org/)
+3. [Matplotlib](http://www.matplotlib.org/)
+4. Installing [Anaconda Python](https://www.anaconda.com/) and [Keras](https://keras.io/)
+5. [Sklearn](http://scikit-learn.org/stable/)
+
 The easiest way to install keras (Backend is TensorFlow) as well as NumPy, Matplotlib, Sklearn and so on is to start with the Anaconda Python distribution.
 
 Follow the installation instructions for Anaconda Python. We recommend using Python 3.6.
@@ -31,9 +32,11 @@ Follow the platform-specific TensorFlow installation instructions. Be sure to fo
 If you aren't still inside your Conda TensorFlow environment, enter it by opening your terminal and typing
 
 source activate tensorflow
+
 If you haven't done so already, download and unzip this entire repository from GitHub, either interactively, or by entering
 
 git clone https://github.com/zhengwang125/Sentiment-Analysis.git
+
 Use cd to navigate into the top directory of the repo on your machine
 
 # Deep Learning
@@ -42,7 +45,7 @@ Use cd to navigate into the top directory of the repo on your machine
 
 # Statistical Machine Learning
 
-**Random Forest**, **K Nearest Neighbors**, **SVM**, **Voting** , **Logistic Regression** are also used for this prediction. More details you can found in homepage of [Scikit-learn Classification](http://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+**Random Forest**, **K Nearest Neighbors**, **SVM**, **Voting** , **Logistic Regression** are also used for this prediction. More details can be found in the homepage of [Scikit-learn Classification](http://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 Algorithms | Accuracy
 --------   | -------
